@@ -1,22 +1,142 @@
+body
+{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body #topdiv 
+{
+    color: white;
+}
+.first-div
+{
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    
+}
+
+#placeholder-div
+{
+    background-color: gray;
+    display: flex;
+    font-size: large;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+#website-div
+{
+    flex: 1;
+}
+
+header span
+{
+    white-space: nowrap;
+}
+header span, 
+.first-div > div
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
 header
 {
     
     display: flex;
     justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #1F2937;
     color: white;
+    
 }
 
-
-
-
+.button1 
+{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 32px;
+    font-weight: bolder;
+    font-size: 15px;
+}
 
 a
 {
     text-decoration: none;
     color: white;
+    margin: 10px;
+}
+.white-div
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-container
+{
+    display: flex; 
+    justify-content: center;
+    
+}
+.box-containers
+{
+    display: flex; 
+    justify-content: center;
+    gap: 40px;
+}
+.text-box
+{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+
+}
+.text-box div
+{
+    border: 5px solid #3882F6;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    
+}
+
+#p1
+{
+ font-size: 35px;
+}
+
+#p2
+{
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+    font-size: medium;
+}
+.call-action
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6; 
+    padding-left: 100px; 
+    padding-right: 100px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 25px; 
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
